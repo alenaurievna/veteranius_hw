@@ -1,0 +1,387 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.leftSide {
+     width: 40%;
+    position: fixed; 
+    z-index: 0;
+}
+.girlFace {
+    width: 100%;
+}
+.menuIcon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 80px;
+}
+button:hover{
+  background-color: gray;
+}
+.rightSide {
+    z-index: 0;
+    margin-left: 40%;
+    padding: 12px 24px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.photographMainInfo {
+    padding: 130px 15px;
+}
+h1 {
+   text-align: center;
+    font-size: 64px;
+    line-height: 1.5;
+    font-family: Verdana,sans-serif;
+    margin-bottom: 20px;
+    
+}
+.photographInfo {
+    text-align: center;
+      margin-bottom: 50px;
+}
+button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 15px 15px;
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+}
+.downloadButton {
+    width: 15px;
+    height: 15px;
+    color: black;
+}
+.containerTitle {
+  color: #757575;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 16px  0;
+  
+}
+.greyLine {
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+  opacity: 0.60;
+}
+
+.portfilioColumns {
+  display: flex;
+  
+}
+.portfolioColumn {
+  width: 50%;
+}
+.portfilioImg {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.aboutContent {
+  color: #757575;
+  text-align: justify;
+   font-size: 18px;
+  line-height: 1.5;
+}
+
+.skill {
+      letter-spacing: 4px;
+      color: #757575;
+      text-align: justify;
+      margin: 15px 0;
+      letter-spacing: 4px;
+          font-size: 15px;
+          line-height: 1.5;
+}
+.photography{
+  background-color:#f1f1f1;
+  position: relative;
+  height: 30px;
+
+}
+  .procentOfPhotography {
+    position: absolute;
+    background-color:#616161;
+    width: 95%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #ffff;
+    text-align: center;
+    height: 100%;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .webDesign {
+      background-color:#f1f1f1;
+      position: relative;
+      height: 30px;
+
+  }
+  .procentOfWebDesign {
+        position: absolute;
+        background-color:#616161;
+        width: 85%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        color: #ffff;
+        text-align: center;
+        height: 100%;
+        line-height: 30px;
+        font-size: 15px;
+        }
+.photoshop {
+        background-color:#f1f1f1;
+        position: relative;
+        height: 30px;
+}
+.procentOfPhotoshop{
+          position: absolute;
+          background-color:#616161;
+          width: 80%;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          color: #ffff;
+          text-align: center;
+          height: 100%;
+          line-height: 30px;
+          font-size: 15px;
+}
+.greyBox {
+  margin: 35px 0;
+  background-color: #616161;
+  height: 95px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+    align-items: center;
+    text-align: center; 
+     color: #fff;
+    
+     line-height: 1.5;
+}; 
+
+.greyBox .rowSkills {
+ font-size: 15px;
+}
+.greyBox .rowSkills .amount {
+ font-size: 25px;  
+}
+#secondBtn {
+  margin: 0;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.rowOfReview {
+margin-bottom: 30px;
+  display: flex;
+}
+
+.reviewerName {
+margin-right: 16px;
+color: black;
+font-size: 18px;
+text-align: justify;
+line-height: 1.5;
+}
+.reviewerContent {
+  color: #757575;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+.review {
+  color: #757575;
+  font-size: 15px;
+  line-height: 1.5;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.priceContainer {
+  margin-bottom: 90px;
+}
+.priceBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  
+  
+}
+.priceColumn {
+  width: 49%;
+  text-align: center;
+
+}
+.basicHeader {
+  background-color: #616161;
+  color: #fff;
+  height: 100%;
+  font-size: 24px;
+  padding: 30px 0;
+}
+.proHeader {
+   background-color: #000;
+   color: #fff;
+   height: 100%;
+   font-size: 24px;
+   padding: 30px 0;
+}
+.priceComponent {
+  font-size: 18px;
+  padding: 20px 0;
+  border: #ddd 1px solid;
+  color: #757575;
+}
+.priceValue {
+  font-size: 30px;
+  padding: 20px 0;
+  border: #ddd 1px solid;
+  color: #757575;
+}
+.priceValue .perMonth {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.signUpBtn {
+  background-color: #f1f1f1;
+    border: #ddd 1px solid;
+    padding: 20px 0;
+}
+.sign {
+  background-color:#fff;
+  width: 120px;
+}
+.sign:hover {
+  background-color:#000;
+  color:#fff;
+}
+.priceColumn:hover {
+  box-shadow: 2px 2px 10px #757575;
+}
+.contacts {
+  display: flex;
+}
+.contactSection {
+  width: 100%;
+}
+i {
+   margin: 0  15px 15px 0;
+}
+.contactInfo {
+  /* padding-left: 20px;
+  margin-bottom: 25px; */
+  color: #757575;
+  font-size: 15px;
+
+}
+.map {
+  width: 100%;
+  filter: grayscale(75%);
+  margin: 30px 0;
+}
+.fillForms {
+  color: #757575;
+   font-size: 15px;
+}
+form {
+  width: 97%;
+}
+.inputName, .inputEmail, .inputSubj, .inputMsg  {
+  display: block;
+  width: 100%;
+  padding: 16px 10px;
+  border: 1px solid #ccc;
+  color: #757575;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#sendMsg {
+  margin: 0 0 100px 0;
+}
+footer {
+  background-color: #f1f1f1;
+  margin: 0 -20px; /*delete scroll*/
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ font-size: 15px;
+}
+.socialIcons {
+  display: flex;
+align-items:center;
+}
